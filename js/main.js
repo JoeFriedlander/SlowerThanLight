@@ -28,7 +28,7 @@ Star.setupStars();
 Ship.setupShips();
 setupInput(canvas, context);
 let background = new Image();
-background.src = "data/img/mapfilled.jpg";
+background.src = "../data/img/mapfilled.jpg";
 
 // Make sure the image is loaded first otherwise nothing will draw.
 background.onload = function(){
