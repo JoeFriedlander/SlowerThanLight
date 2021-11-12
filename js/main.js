@@ -72,7 +72,7 @@ let enemyAI = setInterval(function(){
 }, aiInterval);
 
 // randomize ship send interval? could be neat. or every star has own timer
-/* 
+/*
 setInterval(function(){
   clearInterval(shipSendInterval);
   randomShipSendInterval = (Math.random() * 400) + 200;
